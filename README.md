@@ -1,29 +1,62 @@
-# Guess My Number Game 🎯
+# Guess My Number 🎯
 
-Welcome to the **Guess My Number** game! This is a fun and interactive browser-based game where players try to guess a randomly generated number between 1 and 20. The game provides instant feedback and keeps track of your high score, making it both challenging and engaging.
+Welcome to the **Guess My Number** game, a simple and interactive number-guessing game built with **HTML**, **CSS**, and **JavaScript**! This project showcases dynamic DOM manipulation, event handling, and game logic implementation, making it a great example of front-end development skills.
 
 ## 🚀 Features
 
-- **Dynamic Gameplay**: Guess a number and get immediate feedback (e.g., "Too high!" or "Too low!").
-- **High Score Tracking**: Compete with yourself to beat your previous high score.
-- **Responsive Design**: Fully responsive and visually appealing interface.
-- **Reset Functionality**: Start a new game anytime with the "Again!" button.
-
-## 🛠️ Technologies Used
-
-- **HTML**: For structuring the game layout.
-- **CSS**: For styling the game interface and creating a visually appealing design.
-- **JavaScript**: For implementing the game logic and interactivity.
-
----
+- **Random Number Generation**: A secret number is randomly generated between 1 and 20.
+- **Dynamic Feedback**: Real-time feedback on guesses (e.g., "Too high!", "Too low!", "Correct Number!").
+- **Score Tracking**: Keeps track of the player's score and high score.
+- **Game Reset**: Allows players to restart the game at any time.
+- **Responsive Design**: Fully responsive layout for desktop and mobile devices.
 
 ## 🎮 How to Play
 
-1. Open the game in your browser.
-2. Guess a number between 1 and 20 by entering it in the input field.
-3. Click the **Check!** button to see if your guess is correct.
-4. If your guess is wrong, the game will tell you if it's too high or too low.
-5. Keep guessing until you find the correct number!
-6. Use the **Again!** button to reset the game and play again.
+1. **Objective**: Guess the secret number between 1 and 20.
+2. **Make a Guess**: Enter your guess in the input field and click the **Check!** button.
+   - If your guess is correct, you win the game!
+   - If your guess is too high or too low, you'll receive feedback and lose one point.
+3. **Restart the Game**: Click the **Again!** button to reset the game and try again.
+4. **High Score**: Try to beat your previous high score by guessing the number with fewer attempts.
 
----
+## 🛠️ Technologies Used
+
+### HTML
+The structure of the game is defined in [`index.html`](index.html). It includes:
+- A header with the game title and instructions.
+- Input and button elements for user interaction.
+- Sections for displaying messages, scores, and the secret number.
+
+### CSS
+The styling is handled in [`style.css`](style.css), featuring:
+- A retro-inspired design with a clean and modern layout.
+- Smooth transitions for background color changes and animations.
+- Responsive layout for an optimal experience on all devices.
+
+### JavaScript
+The game logic is implemented in [`script.js`](script.js), including:
+- Random number generation for the secret number.
+- Event listeners for button clicks and input handling.
+- Functions for updating the DOM dynamically based on user actions.
+- Game state management (e.g., score, high score, and reset functionality).
+
+## 📸 Screenshots
+
+### Game Layout
+![Game Layout](guess-my-number-flowchart.png)
+
+## 💡 Key Highlights
+
+- **Interactive Feedback**: Real-time messages guide the player through the game.
+- **Dynamic Styling**: Background and layout changes enhance the user experience.
+- **Scalable Design**: Easily extendable to add more features or difficulty levels.
+
+## 🏗️ How to Run the Project
+
+1. Clone the repository or download the project files.
+2. Open [`index.html`](index.html) in your browser.
+3. Start playing the game!
+
+## 📬 Contact
+
+If you have any questions or feedback, feel free to reach out. Enjoy the game! 😊
