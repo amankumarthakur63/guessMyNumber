@@ -44,6 +44,8 @@ The game logic is implemented in [`script.js`](script.js), including:
 
 ### Game Layout
 ![Game Layout](guess-my-number-flowchart.png)
+![Screenshot 2025-03-25 214412](https://github.com/user-attachments/assets/affd012d-2909-450d-8b72-5f5e2be52c5a)
+![Screenshot 2025-03-25 214446](https://github.com/user-attachments/assets/e09349fb-b1ae-45ec-bc58-c5b79aa22963)
 
 ## 💡 Key Highlights
 
